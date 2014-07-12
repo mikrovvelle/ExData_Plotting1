@@ -3,7 +3,7 @@ source("importData.R")
 hpc <- getHpc()
 
 # plot 3, sub meters
-png(filename="Plot3.png")
+png(filename="Plot3.png", bg="transparent")
 plot(hpc$Time, hpc$Sub_metering_1,
     type="l",
     ylab="Energy sub metering", xlab="")

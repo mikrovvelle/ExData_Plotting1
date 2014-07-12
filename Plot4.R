@@ -3,7 +3,7 @@ source("importData.R")
 hpc <- getHpc()
 
 # plot 4, 4 sectors
-png(filename="Plot4.png")
+png(filename="Plot4.png", bg="transparent")
 par(mfrow=c(2,2))
 
 plot(hpc$Time, hpc$Global_active_power,
