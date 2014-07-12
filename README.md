@@ -1,3 +1,8 @@
+## Notes on the solution
+
+All code is meant to run in the same directory as the uncompressed `household_power_consumption.txt` data set from the link listed below. The only requirement is that the text file be present in the root directory as this project (same directory as all the R files). If you really don't like putting the data set in the code's directory, you can change the path in first line of `importData.R` to point somewhere else.
+
+
 ## Introduction
 
 This assignment uses data from
