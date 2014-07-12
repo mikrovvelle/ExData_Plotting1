@@ -29,5 +29,5 @@ legend("topright", lty=1, bty="n",
 
 plot(hpc$Time, hpc$Global_reactive_power,
         type="l",
-        xlab="datetime"), ylab="Global_reactive_power"
+        xlab="datetime", ylab="Global_reactive_power")
 dev.off()
